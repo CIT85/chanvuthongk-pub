@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Chanvuthong Kay">
+    <meta name="description" content="Contact Chanvuthong Kay with questions or feedback about this fitness and health journey website.">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Fitness and Health Journey!</h1>
+        <nav aria-label="primary-navigation" title="Main Navigation">
+            <h2>Main Navigation</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workout_schedule.html">Weekly Workout Schedule</a></li>
+                <li><a href="nutrition.html">Nutrition and Recovery</a></li>
+                <li><a href="motivation_tips.html">Motivation and Tips</a></li>
+                <li><a href="stress_management.html">Stress Management</a></li>
+                <li><a href="about_me.html">About Me</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="contact">
+            <h2>Contact Me</h2>
+
+            <p>
+                Thank you for visiting my fitness and health journey website. I created this site to combine what I am
+                learning about exercise, motivation, nutrition, and recovery in one place. If you have questions,
+                suggestions, or just want to share how your own journey is going, you can use the form below to reach out.
+            </p>
+
+            <section aria-labelledby="contact-form-heading">
+                <h3 id="contact-form-heading">Send a Message</h3>
+
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+
+                        <p>
+                            <label for="name">Full Name:</label><br>
+                            <input type="text" id="name" name="name" required>
+                        </p>
+
+                        <p>
+                            <label for="email">Email Address:</label><br>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+
+                        <p>
+                            <label for="reason">Reason for Contact:</label><br>
+                            <select id="reason" name="reason" required>
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="question">I have a question about your workouts</option>
+                                <option value="feedback">I have feedback about the website</option>
+                                <option value="encouragement">I want to share encouragement or my own journey</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label for="message">Your Message:</label><br>
+                            <textarea id="message" name="message" rows="10" cols="30" required></textarea>
+                        </p>
+
+                        <p>
+                            <button type="submit" formaction="https://httpbin.org/get" formmethod="submit">Send Message</button>
+                            <button type="reset">Reset</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy;Chanvuthong Kay</p>
+        <p><a href="#top">Back to Top</a></p>
+        <p><a href="site.html">Sitemap</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <a href="https://creator.nightcafe.studio/dall-e-ai-image-generator" target="_blank">
+            AI Image Generator: Dall-e3
+        </a>
+    </footer>
+</body>
+
+</html>
