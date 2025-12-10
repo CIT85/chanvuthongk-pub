@@ -269,9 +269,8 @@ footer a:hover, footer a:focus {
         margin: 2rem auto;
     }
 
-    /* Keep your current 4-column footer grid here */
     footer {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 
     table {

@@ -124,3 +124,27 @@ a:visited {
     font-size: 0.9rem;
     color: #555;
 }
+
+footer {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    border-top: 2px solid #2E7D32;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    background-color: #ffffff;
+}
+
+footer p, a {
+    margin: 0;
+    color: #80d4a4;                 
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover, footer a:focus {
+    text-decoration: underline;
+}
